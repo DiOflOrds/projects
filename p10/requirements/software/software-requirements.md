@@ -12,7 +12,19 @@
 
 ## Traceability
 
-STK-020 ← SWR-077–081 (complete; no orphans). Status stays `draft` until the G1 decision (T-0002) — DoD applied 2026-08-16 (RM), review by QM pending with G1.
+STK-020 ← SWR-077–081 (complete; no orphans). DoD applied 2026-08-16 (RM).
+
+**G1 erteilt: D001/G1a am 2026-08-16 08:18** (T-0002) — Sprint 1 ist beauftragt.
+
+*Korrektur der ursprünglichen Zusage (PM-Beschluss B027): Hier stand „Status stays `draft` until
+the G1 decision". Wörtlich befolgt hätte das jetzt alle fünf SWRs auf `reviewed` gesetzt — mit dem
+Ergebnis, dass die SWR↔Test-Matrix sie als „manuelle Abnahme dokumentiert" ausgewiesen hätte,
+obwohl nichts davon gebaut, getestet oder abgenommen ist. Das Lücken-Gate wäre grün geblieben und
+hätte fünf leere Anforderungen gedeckt — genau die Art blinder Fleck, die heute schon zweimal
+aufgefallen ist (p9/T-0007, pm/T-0017). Deshalb: **Jede SWR wechselt einzeln auf `reviewed`, wenn
+Sprint 1 sie mit ihrem Nachweis liefert.** Die G1-Freigabe ist damit nicht abgeschwächt — sie
+beauftragt den Sprint; der Status der Anforderung bezeugt weiterhin nur, was tatsächlich
+verifiziert ist.*
 
 ## Open points for sprint 1
 
