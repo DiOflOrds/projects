@@ -15,7 +15,11 @@ until G1 (B027).*
 
 STK-022 ← SWR-097–101 (complete; no orphans). DoD applied 2026-08-16 (RM).
 
-**Alle fünf Anforderungen stehen auf `draft` (B027).** G0a beauftragt das Projekt; sie bezeugt
+**G1 erteilt: D001/G1a am 2026-08-16 19:11** (T-0002) — das Anforderungs-Set ist freigegeben und
+Sprint 1 beauftragt (`p12/T-0003`).
+
+**Alle fünf Anforderungen stehen weiterhin auf `draft` (B027) — auch nach G1.** Das ist kein
+Versehen: G1a beauftragt den Sprint, es verifiziert keine Anforderung. G0a beauftragt das Projekt; sie bezeugt
 nicht, dass etwas gebaut, geprüft oder abgenommen ist. Stünden sie jetzt auf `reviewed`, würde die
 SWR↔Test-Matrix sie mangels Tests als „manuelle Abnahme dokumentiert" ausweisen und das
 Lücken-Gate bliebe grün, obwohl nichts dahintersteht — der blinde Fleck aus `p9/T-0007`,

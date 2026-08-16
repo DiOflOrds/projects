@@ -12,6 +12,9 @@ Language: English (D011).*
 
 STK-022 ← SWR-097–101 (complete; no orphans).
 
+**G1 erteilt: D001/G1a am 2026-08-16 19:11** (T-0002). STK-022 bleibt `draft`, bis Sprint 1 sie
+mit ihrem Nachweis belegt — die Freigabe beauftragt den Sprint, sie verifiziert keine Anforderung.
+
 **Status `draft` bis zum Nachweis** (B027): Die G0-Freigabe beauftragt das Projekt — sie bezeugt
 nicht, dass eine Anforderung geprüft ist. Der Wechsel auf `reviewed` erfolgt einzeln mit dem
 jeweiligen Nachweis aus Sprint 1, nicht mit einer Freigabe.

@@ -1,12 +1,13 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-16 · Tickets: 2
+Stand: 2026-08-16 · Tickets: 3
 
 
-## open (1)
+## open (2)
 
 | ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|
+| [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | hoch | 1 | — |
 | [T-0002](tickets/T-0002.md) | DR: G1 — Anforderungen P12 (STK-022, SWR-097–101) freigeben und Sprint 1 beauftragen | decision-request | einmalig | pl | mittel | 0 | — |
 
 ## done (1)
