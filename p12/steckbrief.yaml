@@ -1,1 +1,2 @@
-beschreibung: "Markdown-Renderer auch für Briefe/Reports"
+beschreibung: "Markdown-Renderer auch für Briefe/Reports: Briefe und Sprint-Reports formatiert darstellen wie den Digest — über den vorhandenen Renderer, mit Ticket-Links im Inline-Pass statt eines zweiten Textwegs"
+status: aktiv
