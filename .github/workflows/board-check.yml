@@ -1,0 +1,50 @@
+# Board-Check Sammel-Repo `projects` (Muster p0/T-0015, angepasst für pm/D003):
+# board.py --check + BOARD.md-Aktualitätsprüfung für JEDEN Projektordner je Push/PR.
+#
+# VORAUSSETZUNG (einmalig, Mensch): Fine-grained PAT mit "Contents: Read" für
+# DiOflOrds/platform (dieselbe PAT wie bei p0-p9,pm) in DiOflOrds/projects ->
+# Settings -> Secrets and variables -> Actions als Secret PLATFORM_READ_TOKEN hinterlegen.
+name: Board-Check
+on:
+  push:
+    branches: [main]  # P2/T-0013: keine Tag-Laeufe (alte Commits vs. heutige Repos = Rauschen)
+  pull_request:
+jobs:
+  board:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Secret PLATFORM_READ_TOKEN vorhanden?
+        env:
+          TOKEN: ${{ secrets.PLATFORM_READ_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::Secret PLATFORM_READ_TOKEN fehlt (Lese-PAT für DiOflOrds/platform). Anleitung im Workflow-Kopf."
+            exit 1
+          fi
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          repository: DiOflOrds/platform
+          token: ${{ secrets.PLATFORM_READ_TOKEN }}
+          path: .platform-tools
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Ticket-Validierung + BOARD.md-Aktualität je Projektordner
+        run: |
+          set -e
+          gefunden=0
+          for d in */ ; do
+            p="${d%/}"
+            [ -d "$p/tickets" ] || continue
+            gefunden=$((gefunden+1))
+            echo "::group::$p"
+            python .platform-tools/scripts/board.py "$p" --check --no-git
+            python .platform-tools/scripts/board.py "$p" --no-git
+            git diff -I "^Stand:" --exit-code "$p/BOARD.md" || {
+              echo "::error::$p/BOARD.md ist nicht aktuell — board.py laufen lassen und mitcommitten."
+              exit 1
+            }
+            echo "::endgroup::"
+          done
+          echo "Projektordner geprüft: $gefunden"
