@@ -9,7 +9,7 @@ Stand: 2026-08-16 · Tickets: 3
 |---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | hoch | 1 | — |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|
