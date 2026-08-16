@@ -15,6 +15,12 @@ until G1 (B027).*
 
 STK-021 ← SWR-092–096 (complete; no orphans). DoD applied 2026-08-16 (RM).
 
+**G1 erteilt: D001/G1a am 2026-08-16 16:07** (T-0002) — Sprint 1 ist beauftragt. **Die
+Anforderungen bleiben trotzdem `draft`**, siehe den folgenden Absatz: die Freigabe beauftragt den
+Sprint, sie verifiziert keine Anforderung. Sprint 1 startet zudem erst mit dem Widget-Vertrag
+(`team-dashboard/T-0001`, Frist 23.08.) — die Eingangsbedingung war im Antrag benannt und ist mit
+G1a unverändert.
+
 **Alle fünf Anforderungen stehen auf `draft` (B027).** G0a beauftragt das Projekt; sie bezeugt
 nicht, dass etwas gebaut, getestet oder abgenommen ist. Stünden sie jetzt auf `reviewed`, würde
 die SWR↔Test-Matrix sie mangels Unit-Tests als „manuelle Abnahme dokumentiert" ausweisen und das
