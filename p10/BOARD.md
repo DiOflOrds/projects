@@ -1,7 +1,19 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-16 · Tickets: 2
+Stand: 2026-08-16 · Tickets: 4
 
+
+## open (1)
+
+| ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|
+| [T-0004](tickets/T-0004.md) | DR: G4 — Sprint 1 und P10-Abnahme (Baseline p10-v1.0) | decision-request | einmalig | pl | hoch | 1 | — |
+
+## in_review (1)
+
+| ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|
+| [T-0003](tickets/T-0003.md) | SWE.2/3: ADR-007 + Ticket-Editor im HMI (SWR-077–081) umsetzen | task | einmalig | dev | hoch | 1 | — |
 
 ## done (2)
 
