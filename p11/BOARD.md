@@ -11,7 +11,7 @@ Stand: 2026-08-17 · Tickets: 9
 | [T-0008](tickets/T-0008.md) | Sprint 1b: Backend-Endpunkt auf der Cockpit-Quelle + Widget-Konfiguration mit Persistenz | task | einmalig | dev | Team | hoch | 1 | T-0007 |
 | [T-0009](tickets/T-0009.md) | Sprint 1c: Detailseiten per Deep-Link + Mail-Widget hinter dem PIN-Lesegate | task | einmalig | dev | Team | mittel | 1 | T-0008 |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
