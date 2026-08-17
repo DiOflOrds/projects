@@ -11,7 +11,7 @@ Stand: 2026-08-17 · Tickets: 9
 | [T-0005](tickets/T-0005.md) | Sprint 1b: ADR-Delta zu ADR-002 und Vollständigkeitsnachweis (SWR-099) gegen den Bestand | task | einmalig | pl | Team | hoch | 1 | T-0004 |
 | [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0009 |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
