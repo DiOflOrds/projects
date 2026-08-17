@@ -10,7 +10,7 @@ Stand: 2026-08-17 · Tickets: 5
 | [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | hoch | 1 | — |
 | [T-0005](tickets/T-0005.md) | Layout-Entwurf: passen 16 Kacheln ohne Scrollen auf FHD? (Entwurfsfrage vor dem Bau) | task | einmalig | pl | hoch | 1 | T-0004 |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|
