@@ -1,13 +1,22 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-17 · Tickets: 3
+Stand: 2026-08-17 · Tickets: 7
 
 
-## open (1)
+## open (4)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | Team | hoch | 1 | — |
+| [T-0005](tickets/T-0005.md) | Sprint 1b: ADR-Delta zu ADR-002 und Vollständigkeitsnachweis (SWR-099) gegen den Bestand | task | einmalig | pl | Team | hoch | 1 | T-0004 |
+| [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0005 |
+| [T-0007](tickets/T-0007.md) | DR: Darf Node.js Voraussetzung des Projekts werden? (JS-Teststrecke, ADR-008) | decision-request | einmalig | mensch | MENSCH | hoch | 1 | — |
+
+## in_progress (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
+| [T-0004](tickets/T-0004.md) | Sprint 1a: Die Teststrecken-Entscheidung (R5) im ADR — vor jeder Umstellung | task | einmalig | pl | Team | hoch | 1 | — |
 
 ## done (2)
 
