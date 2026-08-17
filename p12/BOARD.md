@@ -1,6 +1,6 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-17 · Tickets: 9
+Stand: 2026-08-17 · Tickets: 10
 
 
 ## open (2)
@@ -8,6 +8,12 @@ Stand: 2026-08-17 · Tickets: 9
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | Team | hoch | 1 | — |
+| [T-0010](tickets/T-0010.md) | DR/G4: Baseline p12-v1.0 abnehmen — und was mit Ticket-Body, DR-Body und den zwei Dokumentenansichten geschieht | decision-request | einmalig | pl | MENSCH | hoch | 1 | — |
+
+## in_progress (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
 | [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0009 |
 
 ## done (7)
