@@ -3,12 +3,17 @@
 Stand: 2026-08-17 · Tickets: 11
 
 
-## open (2)
+## open (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
+| [T-0011](tickets/T-0011.md) | Folgepunkt aus G4: laufen Ticket-Body, DR-Body und die zwei Dokumentenansichten über den Block-Renderer? | task | einmalig | pl | Team | niedrig | 1 | — |
+
+## in_progress (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | Team | hoch | 1 | — |
-| [T-0011](tickets/T-0011.md) | Folgepunkt aus G4: laufen Ticket-Body, DR-Body und die zwei Dokumentenansichten über den Block-Renderer? | task | einmalig | pl | Team | niedrig | 1 | — |
 
 ## done (9)
 
