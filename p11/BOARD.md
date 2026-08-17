@@ -3,15 +3,20 @@
 Stand: 2026-08-17 · Tickets: 11
 
 
-## open (5)
+## open (4)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | Team | hoch | 1 | — |
 | [T-0008](tickets/T-0008.md) | Sprint 1b: Backend-Endpunkt auf der Cockpit-Quelle + Widget-Konfiguration mit Persistenz | task | einmalig | dev | Team | hoch | 1 | T-0007 |
-| [T-0010](tickets/T-0010.md) | Sprint 1b-a: Dashboard-Endpunkt und breite Kachelansicht (lesend) — die Korridor-Ausnahme einlösen | task | einmalig | dev | Team | hoch | 1 | — |
 | [T-0009](tickets/T-0009.md) | Sprint 1c: Detailseiten per Deep-Link + Mail-Widget hinter dem PIN-Lesegate | task | einmalig | dev | Team | mittel | 1 | T-0008 |
 | [T-0011](tickets/T-0011.md) | Sprint 1b-b: Widget-Konfiguration mit Persistenz (schreibend) | task | einmalig | dev | Team | mittel | 1 | T-0010 |
+
+## in_progress (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
+| [T-0010](tickets/T-0010.md) | Sprint 1b-a: Dashboard-Endpunkt und breite Kachelansicht (lesend) — die Korridor-Ausnahme einlösen | task | einmalig | dev | Team | hoch | 1 | — |
 
 ## done (6)
 
