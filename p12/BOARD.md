@@ -12,7 +12,7 @@ Stand: 2026-08-17 · Tickets: 9
 | [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0005 |
 | [T-0009](tickets/T-0009.md) | Sprint 1b-b: ADR-Delta zu ADR-002 und die Regel gegen einen zweiten Renderpfad | task | einmalig | pl | Team | hoch | 1 | T-0008 |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
