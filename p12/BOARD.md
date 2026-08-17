@@ -11,16 +11,11 @@ Stand: 2026-08-17 · Tickets: 7
 | [T-0005](tickets/T-0005.md) | Sprint 1b: ADR-Delta zu ADR-002 und Vollständigkeitsnachweis (SWR-099) gegen den Bestand | task | einmalig | pl | Team | hoch | 1 | T-0004 |
 | [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0005 |
 
-## in_review (1)
-
-| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|---|---|
-| [T-0007](tickets/T-0007.md) | DR: Darf Node.js Voraussetzung des Projekts werden? (JS-Teststrecke, ADR-008) | decision-request | einmalig | mensch | Team | hoch | 1 | — |
-
-## done (3)
+## done (4)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0004](tickets/T-0004.md) | Sprint 1a: Die Teststrecken-Entscheidung (R5) im ADR — vor jeder Umstellung | task | einmalig | pl | Team | hoch | 1 | — |
+| [T-0007](tickets/T-0007.md) | DR: Darf Node.js Voraussetzung des Projekts werden? (JS-Teststrecke, ADR-008) | decision-request | einmalig | mensch | Team | hoch | 1 | — |
 | [T-0001](tickets/T-0001.md) | DR: G0 — Projektauftrag p12 „Markdown-Renderer auch für Briefe/Reports“ freigeben | decision-request | einmalig | pl | Team | mittel | 0 | — |
 | [T-0002](tickets/T-0002.md) | DR: G1 — Anforderungen P12 (STK-022, SWR-097–101) freigeben und Sprint 1 beauftragen | decision-request | einmalig | pl | Team | mittel | 0 | — |
