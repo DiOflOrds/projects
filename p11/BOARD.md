@@ -14,13 +14,7 @@ Stand: 2026-08-17 · Tickets: 14
 | [T-0013](tickets/T-0013.md) | Sprint 1c-b: Mail-Widget hinter dem PIN-Lesegate — eine Kachel mit EIGENER Zugriffsregel | task | einmalig | dev | Team | mittel | 1 | T-0012 |
 | [T-0014](tickets/T-0014.md) | Entscheiden: bleibt /api/dashboard ohne Leser bestehen? (Anzeigehälfte von SWR-135 abgelöst) | problem | einmalig | pl | Team | niedrig | 1 | — |
 
-## in_review (1)
-
-| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|---|---|
-| [T-0012](tickets/T-0012.md) | Sprint 1c-a: Deep-Links vom Dashboard in die Detailseiten — auf <projekt>/T-xxxx, nie auf die Nummer allein | task | einmalig | dev | Team | mittel | 1 | — |
-
-## done (7)
+## done (8)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
@@ -31,3 +25,4 @@ Stand: 2026-08-17 · Tickets: 14
 | [T-0006](tickets/T-0006.md) | DR: Das Dashboard verlässt den 62rem-Textkorridor — anders passen 16 Kacheln bei FHD nicht auf eine Seite | decision-request | einmalig | pl | Team | hoch | 1 | — |
 | [T-0007](tickets/T-0007.md) | Sprint 1a: LAY-a als ADR festhalten — wo genau sitzt die Korridor-Ausnahme | task | einmalig | arch | Team | hoch | 1 | — |
 | [T-0010](tickets/T-0010.md) | Sprint 1b-a: Dashboard-Endpunkt und breite Kachelansicht (lesend) — die Korridor-Ausnahme einlösen | task | einmalig | dev | Team | hoch | 1 | — |
+| [T-0012](tickets/T-0012.md) | Sprint 1c-a: Deep-Links vom Dashboard in die Detailseiten — auf <projekt>/T-xxxx, nie auf die Nummer allein | task | einmalig | dev | Team | mittel | 1 | — |
