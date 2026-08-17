@@ -8,7 +8,7 @@ Stand: 2026-08-17 · Tickets: 10
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | Team | hoch | 1 | — |
-| [T-0010](tickets/T-0010.md) | DR/G4: Baseline p12-v1.0 abnehmen — und was mit Ticket-Body, DR-Body und den zwei Dokumentenansichten geschieht | decision-request | einmalig | pl | MENSCH | hoch | 1 | — |
+| [T-0010](tickets/T-0010.md) | DR/G4: Baseline p12-v1.0 abnehmen — und was mit Ticket-Body, DR-Body und den zwei Dokumentenansichten geschieht | decision-request | einmalig | pl | Team | hoch | 1 | — |
 
 ## done (8)
 
