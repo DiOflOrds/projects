@@ -1,6 +1,6 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-17 · Tickets: 10
+Stand: 2026-08-17 · Tickets: 11
 
 
 ## open (2)
@@ -8,6 +8,12 @@ Stand: 2026-08-17 · Tickets: 10
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | Team | hoch | 1 | — |
+| [T-0011](tickets/T-0011.md) | Folgepunkt aus G4: laufen Ticket-Body, DR-Body und die zwei Dokumentenansichten über den Block-Renderer? | task | einmalig | pl | Team | niedrig | 1 | — |
+
+## in_progress (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
 | [T-0010](tickets/T-0010.md) | DR/G4: Baseline p12-v1.0 abnehmen — und was mit Ticket-Body, DR-Body und den zwei Dokumentenansichten geschieht | decision-request | einmalig | pl | Team | hoch | 1 | — |
 
 ## done (8)
