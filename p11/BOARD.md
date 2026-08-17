@@ -3,12 +3,17 @@
 Stand: 2026-08-17 · Tickets: 6
 
 
-## open (2)
+## open (1)
 
 | ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|
-| [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | hoch | 1 | — |
 | [T-0006](tickets/T-0006.md) | DR: Das Dashboard verlässt den 62rem-Textkorridor — anders passen 16 Kacheln bei FHD nicht auf eine Seite | decision-request | einmalig | pl | hoch | 1 | — |
+
+## blocked (1)
+
+| ID | Titel | Typ | Takt | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|
+| [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | hoch | 1 | T-0006 |
 
 ## done (4)
 
