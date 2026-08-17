@@ -3,7 +3,7 @@
 Stand: 2026-08-17 · Tickets: 6
 
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
