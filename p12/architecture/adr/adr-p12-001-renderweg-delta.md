@@ -134,3 +134,82 @@ muss und woran er gemessen wird.
   Erkennung **zweimal**, und beide Fassungen müssten für immer gleich bleiben — B033.
 - **Die Regel als Satz in ADR-002 statt als Prüfung.** Ein Satz, den keine Prüfung liest,
   altert lautlos (`L-2026-08-17ag`, an einem Tag dreimal aufgelaufen).
+
+
+---
+
+## Nachtrag Sprint 19 (`p12/T-0006`) — der Zähler ist eingelöst, und was er nicht wusste
+
+**`ALTBESTAND_TLINKS_AUFRUFE`: 4 → 0.** `tlinks` ist nicht „nicht mehr aufgerufen", sondern
+**entfallen**. Die drei Zusicherungen, die dieses Delta als *Befund* eingefroren hatte, sind
+rot geworden — **genau die drei und keine vierte** — und **umgedreht** statt gelöscht.
+
+> **Ein Test, der den heutigen Zustand festhält, ist erst dann etwas wert, wenn der Lauf,
+> der ihn rot macht, ihn auch umdreht. Sonst ist er eine Warnung mit Zeitstempel.**
+
+### ⚠⚠ Befund 1 — dieses Delta hat eine Stelle übersehen, und der Zähltest konnte es nicht sehen
+
+Entscheidung 3 beschreibt den Zaun-Zweig **im Block-Pass** und ist darin vollständig. Sie
+sagt nichts über die **Fortsetzungsregel** des vorherigen Blocks — und die entscheidet, ob
+der neue Zweig überhaupt erreicht wird. Absatz- und Listenpfad sammeln Folgezeilen, bis eine
+Zeile einem bekannten Muster entspricht; ```` ``` ```` stand in diesem Muster nicht. Ein
+Zaun **nach** einem Absatz wurde samt Inhalt in den Absatz gezogen, und der Zaun-Zweig war
+toter Code.
+
+> **Ein neuer Block-Zweig ist erst dann erreichbar, wenn die Fortsetzungsregel des
+> vorherigen Blocks ihn kennt. Beide Stellen sind richtig, wenn man sie einzeln liest.**
+
+⚠ **Gefunden hat es der Verhaltenstest, nicht der Zähltest** — und das ist die Lehre, nicht
+der Fehler: `test_renderweg_zaehlung.py` liest den Quelltext und sah den Zweig stehen. Er
+konnte nicht sehen, dass ihn niemand erreicht.
+
+> **Ein Muster im Quelltext ist eine Absicht. Erst der Knoten, der danach dasteht, ist ein
+> Befund.**
+
+⚠ Der erste JS-Verhaltenstest, der es fand, hatte den Zaun am **Textanfang** — dort war er
+grün. Rot wurde er erst mit einer Zeile davor. *Ein Beispiel, das die Stelle nicht trifft,
+ist grün und sagt nichts.*
+
+### ⚠ Befund 2 — die Prüfstrecke hätte fast einen zweiten Ladeweg bekommen
+
+Der Inline-Pass fragt seit dieser Umstellung `Regeln` nach dem Ticketziel (SWR-150). Der
+Nachweis-Harnisch lud aber nur `app.js` und nicht `regeln.js` — der Bestandstest wurde rot
+mit `Regeln is not defined`. Der bequeme Weg wäre ein Ersatz-`Regeln` im Test gewesen: eine
+**zweite Antwort** auf genau die Frage, gegen die SWR-150 gebaut ist. Geladen wird deshalb
+die echte `regeln.js`, in derselben Reihenfolge wie `index.html` (Zeile 167/168).
+
+Und weil damit ein zweiter Testlauf denselben Harnisch braucht, liegt er jetzt **einmal** in
+`platform/tests/js/_app_laden.cjs`. *Zwei Harnische, die `app.js` in zwei leicht verschiedene
+Mini-DOMs laden, sind zwei Aussagen darüber, was der Renderer vorfindet — und sie wären an
+dem Tag verschieden, an dem es darauf ankommt.*
+
+### ⚠⚠ Entscheidung 4 (neu) — die vier Rohtext-Ansichten: warum 0 und nicht 1
+
+Ticket-Body, DR-Body und die zwei Dokumentenansichten sind laut Projektauftrag **nicht im
+Umfang**. Sie holten ihre Ticketlinks aber aus `tlinks`. Damit standen zwei Wege offen, und
+**keiner davon ließ diese vier Ansichten unberührt**:
+
+- Zähler bei **1** stehen lassen → `tlinks` lebt weiter → **SWR-098 bleibt unerfüllt**, und
+  die Zusammenführung endet mit zwei Wegen.
+- Zähler auf **0** → die vier holen ihre **Inline**-Regeln aus dem einen Inline-Pass;
+  ihre **Blockstruktur** bleibt Rohtext im `<pre>`.
+
+Gewählt ist das Zweite. `preMitLinks` bleibt und ist **kein zweiter Renderweg**: es erzeugt
+aus Markdown-Blöcken kein DOM. Der Unterschied ist die ganze Begründung, und er ist als Zahl
+festgehalten (`ROHTEXT_ANSICHTEN = 4`).
+
+⚠ **Zwei Einzelheiten, die man beim Nachbauen falsch macht:**
+
+1. **Der Inline-Pass läuft dort ZEILENWEISE.** Auf ein ganzes Dokument losgelassen, spannt
+   ein einzelnes `*` in Zeile 3 einen `<em>` bis zum nächsten `*` in Zeile 90 — *ein Muster,
+   das über Zeilengrenzen greift, findet in einem langen Text immer ein Paar.* In `mdRender`
+   bekommt der Inline-Pass nie mehr als einen Absatz; diese Eigenschaft musste hier von Hand
+   hergestellt werden.
+2. **`blocked_by` ist eine LISTE und kein Fließtext.** Sie durch eine Textsuche zu schicken
+   war der bequeme Weg. *Die Liste weiß, wo ihre Kennungen anfangen und aufhören; eine
+   Textsuche muss es raten.* Sie geht jetzt über `ticketLink` je Element.
+
+⚠ **Der Rest von Entscheidung 4 ist NICHT entschieden**, sondern vorgelegt: ob die vier
+Ansichten über den **Block**-Renderer laufen sollen, steht in `p12/T-0010` (G4-DR, Klasse A)
+zur Entscheidung. *Der Unterschied zwischen „inline mitrendern" und „über den Block-Renderer
+führen" ist nicht kosmetisch: das Zweite macht aus `## Ziel` eine Überschrift.*
