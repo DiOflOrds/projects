@@ -10,13 +10,7 @@ Stand: 2026-08-17 · Tickets: 11
 | [T-0003](tickets/T-0003.md) | Sprint 1: Renderer zusammenführen (ADR, Teststrecken-Entscheidung, Vollständigkeitsnachweis, Umstellung, G4) | task | einmalig | pl | Team | hoch | 1 | — |
 | [T-0011](tickets/T-0011.md) | Folgepunkt aus G4: laufen Ticket-Body, DR-Body und die zwei Dokumentenansichten über den Block-Renderer? | task | einmalig | pl | Team | niedrig | 1 | — |
 
-## in_review (1)
-
-| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|---|---|
-| [T-0010](tickets/T-0010.md) | DR/G4: Baseline p12-v1.0 abnehmen — und was mit Ticket-Body, DR-Body und den zwei Dokumentenansichten geschieht | decision-request | einmalig | pl | Team | hoch | 1 | — |
-
-## done (8)
+## done (9)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
@@ -26,5 +20,6 @@ Stand: 2026-08-17 · Tickets: 11
 | [T-0007](tickets/T-0007.md) | DR: Darf Node.js Voraussetzung des Projekts werden? (JS-Teststrecke, ADR-008) | decision-request | einmalig | mensch | Team | hoch | 1 | — |
 | [T-0008](tickets/T-0008.md) | Sprint 1b-a: Vollständigkeitsnachweis (SWR-099) gegen den Textbestand — messen, bevor umgebaut wird | task | einmalig | pl | Team | hoch | 1 | — |
 | [T-0009](tickets/T-0009.md) | Sprint 1b-b: ADR-Delta zu ADR-002 und die Regel gegen einen zweiten Renderpfad | task | einmalig | pl | Team | hoch | 1 | T-0008 |
+| [T-0010](tickets/T-0010.md) | DR/G4: Baseline p12-v1.0 abnehmen — und was mit Ticket-Body, DR-Body und den zwei Dokumentenansichten geschieht | decision-request | einmalig | pl | Team | hoch | 1 | — |
 | [T-0001](tickets/T-0001.md) | DR: G0 — Projektauftrag p12 „Markdown-Renderer auch für Briefe/Reports“ freigeben | decision-request | einmalig | pl | Team | mittel | 0 | — |
 | [T-0002](tickets/T-0002.md) | DR: G1 — Anforderungen P12 (STK-022, SWR-097–101) freigeben und Sprint 1 beauftragen | decision-request | einmalig | pl | Team | mittel | 0 | — |
