@@ -12,7 +12,7 @@ Stand: 2026-08-17 · Tickets: 7
 | [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0005 |
 | [T-0007](tickets/T-0007.md) | DR: Darf Node.js Voraussetzung des Projekts werden? (JS-Teststrecke, ADR-008) | decision-request | einmalig | mensch | MENSCH | hoch | 1 | — |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
