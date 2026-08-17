@@ -9,7 +9,7 @@ Stand: 2026-08-17 · Tickets: 11
 |---|---|---|---|---|---|---|---|---|
 | [T-0011](tickets/T-0011.md) | Folgepunkt aus G4: laufen Ticket-Body, DR-Body und die zwei Dokumentenansichten über den Block-Renderer? | task | einmalig | pl | Team | niedrig | 1 | — |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
