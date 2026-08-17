@@ -12,7 +12,7 @@ Stand: 2026-08-17 · Tickets: 11
 | [T-0009](tickets/T-0009.md) | Sprint 1c: Detailseiten per Deep-Link + Mail-Widget hinter dem PIN-Lesegate | task | einmalig | dev | Team | mittel | 1 | T-0008 |
 | [T-0011](tickets/T-0011.md) | Sprint 1b-b: Widget-Konfiguration mit Persistenz (schreibend) | task | einmalig | dev | Team | mittel | 1 | T-0010 |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
