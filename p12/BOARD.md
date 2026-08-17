@@ -12,15 +12,10 @@ Stand: 2026-08-17 · Tickets: 7
 | [T-0006](tickets/T-0006.md) | Sprint 1c: Umstellung auf einen Renderweg, Tests, G4 (Baseline p12-v1.0) | task | einmalig | pl | Team | hoch | 1 | T-0005 |
 | [T-0007](tickets/T-0007.md) | DR: Darf Node.js Voraussetzung des Projekts werden? (JS-Teststrecke, ADR-008) | decision-request | einmalig | mensch | MENSCH | hoch | 1 | — |
 
-## in_review (1)
+## done (3)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0004](tickets/T-0004.md) | Sprint 1a: Die Teststrecken-Entscheidung (R5) im ADR — vor jeder Umstellung | task | einmalig | pl | Team | hoch | 1 | — |
-
-## done (2)
-
-| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|---|---|
 | [T-0001](tickets/T-0001.md) | DR: G0 — Projektauftrag p12 „Markdown-Renderer auch für Briefe/Reports“ freigeben | decision-request | einmalig | pl | MENSCH | mittel | 0 | — |
 | [T-0002](tickets/T-0002.md) | DR: G1 — Anforderungen P12 (STK-022, SWR-097–101) freigeben und Sprint 1 beauftragen | decision-request | einmalig | pl | MENSCH | mittel | 0 | — |
