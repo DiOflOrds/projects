@@ -10,13 +10,7 @@ Stand: 2026-08-20 · Tickets: 16
 | [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | Team | hoch | 1 | — |
 | [T-0016](tickets/T-0016.md) | Die Frontend-Hälfte des Rückbaus: kachelFelder, dashboardGruppen, feldText und FELD_TITEL haben seit SWR-148 keinen Aufrufer | task | einmalig | dev | Team | niedrig | 1 | — |
 
-## in_review (1)
-
-| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|---|---|
-| [T-0015](tickets/T-0015.md) | Rückbau: /api/dashboard, aggregation.dashboard und KACHEL_FELDER entfernen — SWR-135 auf die Layout-Hälfte zurückschneiden | task | einmalig | dev | Team | niedrig | 1 | — |
-
-## done (13)
+## done (14)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
@@ -33,3 +27,4 @@ Stand: 2026-08-20 · Tickets: 16
 | [T-0012](tickets/T-0012.md) | Sprint 1c-a: Deep-Links vom Dashboard in die Detailseiten — auf <projekt>/T-xxxx, nie auf die Nummer allein | task | einmalig | dev | Team | mittel | 1 | — |
 | [T-0013](tickets/T-0013.md) | Sprint 1c-b: Mail-Widget hinter dem PIN-Lesegate — eine Kachel mit EIGENER Zugriffsregel | task | einmalig | dev | Team | mittel | 1 | T-0012 |
 | [T-0014](tickets/T-0014.md) | Entscheiden: bleibt /api/dashboard ohne Leser bestehen? (Anzeigehälfte von SWR-135 abgelöst) | problem | einmalig | pl | Team | niedrig | 1 | — |
+| [T-0015](tickets/T-0015.md) | Rückbau: /api/dashboard, aggregation.dashboard und KACHEL_FELDER entfernen — SWR-135 auf die Layout-Hälfte zurückschneiden | task | einmalig | dev | Team | niedrig | 1 | — |
