@@ -9,3 +9,4 @@
 | D001 | 2026-08-16 19:11 | Mensch (E. John, via Inbox) | **G1a** | lt. T-0002 | — | T-0002 |
 | D002 | 2026-08-17 11:48 | Mensch (E. John, via Inbox) | **B-node-optional** | lt. T-0007 | — | T-0007 |
 | D003 | 2026-08-17 21:57 | Mensch (E. John, via Inbox) | **A** | lt. T-0010 | — | T-0010 |
+| D004 | 2026-08-20 20:34 | Mensch (E. John, via Inbox) | **A** | lt. T-0012 | — | T-0012 |
