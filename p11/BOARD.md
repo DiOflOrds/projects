@@ -3,12 +3,17 @@
 Stand: 2026-08-20 · Tickets: 16
 
 
-## open (2)
+## open (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
+| [T-0016](tickets/T-0016.md) | Die Frontend-Hälfte des Rückbaus: kachelFelder, dashboardGruppen, feldText und FELD_TITEL haben seit SWR-148 keinen Aufrufer | task | einmalig | dev | Team | niedrig | 1 | — |
+
+## in_progress (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | Team | hoch | 1 | — |
-| [T-0016](tickets/T-0016.md) | Die Frontend-Hälfte des Rückbaus: kachelFelder, dashboardGruppen, feldText und FELD_TITEL haben seit SWR-148 keinen Aufrufer | task | einmalig | dev | Team | niedrig | 1 | — |
 
 ## done (14)
 
