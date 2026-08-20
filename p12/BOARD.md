@@ -1,9 +1,15 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-20 · Tickets: 11
+Stand: 2026-08-20 · Tickets: 12
 
 
 ## open (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
+| [T-0012](tickets/T-0012.md) | Sollen Ticket-Bodys und Dokumentenansichten wie Briefe gerendert werden? — die Frage, die fünfmal als Aufgabe terminiert wurde | decision-request | einmalig | pl | MENSCH | niedrig | 0 | — |
+
+## in_progress (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
