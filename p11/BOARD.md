@@ -9,7 +9,7 @@ Stand: 2026-08-20 · Tickets: 16
 |---|---|---|---|---|---|---|---|---|
 | [T-0016](tickets/T-0016.md) | Die Frontend-Hälfte des Rückbaus: kachelFelder, dashboardGruppen, feldText und FELD_TITEL haben seit SWR-148 keinen Aufrufer | task | einmalig | dev | Team | niedrig | 1 | — |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
