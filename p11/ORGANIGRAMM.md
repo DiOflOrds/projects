@@ -11,20 +11,23 @@ graph TB
   MENSCH --> PM
   p11["p11<br/>entwicklung · aktiv"]
   PM --> p11
-  DEV_p11["DEV@p11<br/>Cowork/Session"]
-  p11 --> DEV_p11
-  PL_p11["PL@p11<br/>Cowork/Session"]
-  p11 --> PL_p11
-  TEST_p11["TEST@p11<br/>Cowork/Session"]
-  p11 --> TEST_p11
+  p11_CORE["Core Team<br/>10 Rollen · Cowork/Session · sprint"]
+  p11 --> p11_CORE
 ```
 
 ## Beteiligte
 
-| Instanz | Rolle | Motor | Takt | Status | Hinweis |
-|---|---|---|---|---|---|
-| DEV@p11 | Entwickler | Cowork/Session | sprint | aktiv | — |
-| PL@p11 | Projektleiter | Cowork/Session | sprint | aktiv | — |
-| TEST@p11 | Verifikationsingenieur | Cowork/Session | sprint | aktiv | — |
+| Instanz | Rolle | Motor | Takt | Status | Quelle | Hinweis |
+|---|---|---|---|---|---|---|
+| ARCH@p11 | Architekt | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| CHG@p11 | Change-Manager | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| CM@p11 | Konfigurationsmanager | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| COACH@p11 | Prozess-Coach | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| DEV@p11 | Entwickler | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| PL@p11 | Projektleiter | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| PROB@p11 | Problemmanager | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| QM@p11 | Qualitätsmanager | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| RM@p11 | Requirements-Manager | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
+| TEST@p11 | Verifikationsingenieur | Cowork/Session | sprint | aktiv | Core Team (implizit) | — |
 
 Rollen-Bauplan: `process/roles/<rolle>.md` · projektspezifischer Teil: `roles/<rolle>.md` in diesem Repo · Historie: `docs/historie.md`

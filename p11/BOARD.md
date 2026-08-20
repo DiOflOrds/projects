@@ -1,6 +1,6 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-20 · Tickets: 16
+Stand: 2026-08-21 · Tickets: 17
 
 
 ## open (1)
@@ -9,7 +9,7 @@ Stand: 2026-08-20 · Tickets: 16
 |---|---|---|---|---|---|---|---|---|
 | [T-0016](tickets/T-0016.md) | Die Frontend-Hälfte des Rückbaus: kachelFelder, dashboardGruppen, feldText und FELD_TITEL haben seit SWR-148 keinen Aufrufer | task | einmalig | dev | Team | niedrig | 1 | — |
 
-## done (15)
+## done (16)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
@@ -22,6 +22,7 @@ Stand: 2026-08-20 · Tickets: 16
 | [T-0007](tickets/T-0007.md) | Sprint 1a: LAY-a als ADR festhalten — wo genau sitzt die Korridor-Ausnahme | task | einmalig | arch | Team | hoch | 1 | — |
 | [T-0008](tickets/T-0008.md) | Sprint 1b: Backend-Endpunkt auf der Cockpit-Quelle + Widget-Konfiguration mit Persistenz | task | einmalig | dev | Team | hoch | 1 | T-0007 |
 | [T-0010](tickets/T-0010.md) | Sprint 1b-a: Dashboard-Endpunkt und breite Kachelansicht (lesend) — die Korridor-Ausnahme einlösen | task | einmalig | dev | Team | hoch | 1 | — |
+| [T-0017](tickets/T-0017.md) | Setup-Nachzieh (Projektmodell, pm/T-0073): fehlende Initial-Artefakte für P11 — Projektplan, CM-Plan, QM-Plan, Verifikationsstrategie | task | einmalig | pl | Team | hoch | 0 | — |
 | [T-0009](tickets/T-0009.md) | Sprint 1c: Detailseiten per Deep-Link + Mail-Widget hinter dem PIN-Lesegate | task | einmalig | dev | Team | mittel | 1 | T-0008 |
 | [T-0011](tickets/T-0011.md) | Sprint 1b-b: Widget-Konfiguration mit Persistenz (schreibend) | task | einmalig | dev | Team | mittel | 1 | T-0010 |
 | [T-0012](tickets/T-0012.md) | Sprint 1c-a: Deep-Links vom Dashboard in die Detailseiten — auf <projekt>/T-xxxx, nie auf die Nummer allein | task | einmalig | dev | Team | mittel | 1 | — |

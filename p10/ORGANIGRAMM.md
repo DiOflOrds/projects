@@ -15,7 +15,7 @@ graph TB
 
 ## Beteiligte
 
-| Instanz | Rolle | Motor | Takt | Status | Hinweis |
-|---|---|---|---|---|---|
+| Instanz | Rolle | Motor | Takt | Status | Quelle | Hinweis |
+|---|---|---|---|---|---|---|
 
 Rollen-Bauplan: `process/roles/<rolle>.md` · projektspezifischer Teil: `roles/<rolle>.md` in diesem Repo · Historie: `docs/historie.md`

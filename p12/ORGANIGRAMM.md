@@ -9,19 +9,13 @@ graph TB
   MENSCH["Mensch<br/>Auftraggeber / Gates"]
   PM["PM-Team<br/>koordiniert alle PL"]
   MENSCH --> PM
-  p12["p12<br/>entwicklung · aktiv"]
+  p12["p12<br/>entwicklung · abgeschlossen"]
   PM --> p12
-  DEV_p12["DEV@p12<br/>Cowork/Session"]
-  p12 --> DEV_p12
-  PL_p12["PL@p12<br/>Cowork/Session"]
-  p12 --> PL_p12
 ```
 
 ## Beteiligte
 
-| Instanz | Rolle | Motor | Takt | Status | Hinweis |
-|---|---|---|---|---|---|
-| DEV@p12 | Entwickler | Cowork/Session | sprint | aktiv | — |
-| PL@p12 | Projektleiter | Cowork/Session | sprint | aktiv | — |
+| Instanz | Rolle | Motor | Takt | Status | Quelle | Hinweis |
+|---|---|---|---|---|---|---|
 
 Rollen-Bauplan: `process/roles/<rolle>.md` · projektspezifischer Teil: `roles/<rolle>.md` in diesem Repo · Historie: `docs/historie.md`

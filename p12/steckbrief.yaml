@@ -1,2 +1,4 @@
 beschreibung: "Markdown-Renderer auch für Briefe/Reports: Briefe und Sprint-Reports formatiert darstellen wie den Digest — über den vorhandenen Renderer, mit Ticket-Links im Inline-Pass statt eines zweiten Textwegs"
-status: aktiv
+status: abgeschlossen
+# Abschluss formalisiert 2026-08-21 (pm/B059): G4 fuer p12-v1.0 war seit 2026-08-17 erteilt
+# (T-0010/D003), T-0011 seit Sprint 25 done, T-0013 (Setup-Nachzieh) done, 0 offene Tickets.

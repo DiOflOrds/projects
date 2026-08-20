@@ -15,6 +15,7 @@
 |---|---|---|
 | 2026-08-16 | G0a — Projekt beauftragt (der Knopf hat nichts entschieden, die Freigabe kam vom Auftraggeber) | T-0001, D000 |
 | 2026-08-20 | Sprint 24: T-0011 steht bei der vierten Berührung — benannt und nicht begründet | PROJEKTSTATUS Sprint 24 |
+| 2026-08-21 | Setup-Nachzieh done (T-0013); **Projekt formal abgeschlossen** (pm/B059) — G4 war seit 17.08. erteilt, 0 offene Tickets | T-0013, pm/B059 |
 
 ## Lessons Learned (projektbezogen)
 
