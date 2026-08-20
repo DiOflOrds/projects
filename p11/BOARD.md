@@ -3,11 +3,16 @@
 Stand: 2026-08-20 · Tickets: 15
 
 
-## open (2)
+## open (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
 | [T-0003](tickets/T-0003.md) | Sprint 1: Widget-Dashboard bauen (ADR, Layout-Entwurf, Umsetzung, Tests, G4) | task | einmalig | pl | Team | hoch | 1 | — |
+
+## in_progress (1)
+
+| ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|---|---|
 | [T-0015](tickets/T-0015.md) | Rückbau: /api/dashboard, aggregation.dashboard und KACHEL_FELDER entfernen — SWR-135 auf die Layout-Hälfte zurückschneiden | task | einmalig | dev | Team | niedrig | 1 | — |
 
 ## done (13)
