@@ -9,7 +9,7 @@ Stand: 2026-08-20 · Tickets: 12
 |---|---|---|---|---|---|---|---|---|
 | [T-0012](tickets/T-0012.md) | Sollen Ticket-Bodys und Dokumentenansichten wie Briefe gerendert werden? — die Frage, die fünfmal als Aufgabe terminiert wurde | decision-request | einmalig | pl | MENSCH | niedrig | 0 | — |
 
-## in_progress (1)
+## in_review (1)
 
 | ID | Titel | Typ | Takt | Rolle | Verantwortlich | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|---|---|
