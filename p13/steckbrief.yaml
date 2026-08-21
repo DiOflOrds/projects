@@ -1,1 +1,6 @@
 beschreibung: "Produkt-Architekturbilder"
+status: aktiv
+# SWR-208 (Sprint 34): `status` nachgetragen. Der Pool-Knopf hat den Steckbrief ohne
+# Statusfeld geschrieben; organigramm.effektive_besetzungen ueberspringt jede Einheit,
+# die nicht `aktiv` ist — p13 war seit seiner G0-Freigabe (p13/D000, 2026-08-21) OHNE
+# Core Team, und niemand hat gefragt.
