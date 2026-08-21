@@ -18,6 +18,7 @@
 | 2026-08-17 | Layout-Entscheid LAY-a (FHD-Entwurf) | D002, T-0006, architecture/layout-entwurf-fhd.md |
 | 2026-08-17 | Sprint 19: T-0011 gebaut (SWR-151, liest `/api/widgets`) → `/api/dashboard` ohne Leser; Rückbau-Entscheid Option B (Klasse C) | T-0014 |
 | 2026-08-20 | Sprint 24: Rückbau vollzogen — `GET /api/dashboard`, `aggregation.dashboard`, `KACHEL_FELDER` entfernt; SWR-135 auf Layout-Hälfte zurückgeschnitten (v1.61); Wächter als Paar mit echter Auswertung | T-0015, SWR-135, L-2026-08-20by |
+| 2026-08-21 | **Sprint 28:** `T-0016` bei der vierten Berührung **gebaut UND geschnitten** — `kachelFelder`/`dashboardGruppen`/`FELD_TITEL` entfernt, `feldText` bleibt (gemessen: totes Aufrufziel UND lebende Vorlage). Zusicherungen umgedreht statt gelöscht; JS 111 → 107 grün | SWR-135 v1.74 |
 
 ## Lessons Learned (projektbezogen)
 
